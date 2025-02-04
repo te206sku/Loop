@@ -371,6 +371,10 @@ ul {
         width: auto;
         padding:0 30px;
     }
+
+    .dress__item{
+        width: 25%;
+    }
 }
 @media (max-width:992px) {
 .card{
@@ -417,6 +421,11 @@ ul {
         order: -1;
         text-align: right;
     }
+    .dress__item{
+        width: 20%;
+        flex-direction: column;
+    }
+    
 }
 
 @media(max-width:600px){
@@ -424,9 +433,13 @@ ul {
     .menu
     {
         display: none;
+        width: 100%;
     }
     .navbar-toggler{
         display: block;
+    }
+    .mainmenu-list{
+        flex-direction: column;
     }
 }
 
@@ -437,4 +450,9 @@ ul {
    }
     
 }
+
+.show{
+    display: block;
+}
+
 
